@@ -18,7 +18,7 @@ Documentation for Application
 - [Usage Example / Running the App](#usage-example--running-the-app)
 
 ## About
-This app is made to sort List of names from desired file which already available and located inside this project
+This Lightweight app is made to sort List of names from desired file which already available and located inside this project
 ("unsorted-names-list.txt") then we save them into another file ("sorted-names-list.txt").
 
 ## Environment, Tools, and Unit Testing
@@ -33,7 +33,7 @@ This app is made to sort List of names from desired file which already available
 The reason of using Maven on this Repo:  
 ```
 ✅  No need 'specific IDEs'. Feel free to use any text editor to open the project.  
-✅  Easy to use. Because ee don't do repeated activities by starting, stop, <br /> or even restart the local server on this project.  
+✅  Easy to use. Because ee don't do repeated activities such as starting, stop, <br /> or even restart local server on this project.  
 ✅  Straightforward to check the code result on terminal by using java command <br  />(you'll see it on below)
 ```
 ## Project Tree Details
