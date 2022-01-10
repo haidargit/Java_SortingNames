@@ -51,8 +51,9 @@ public class SortingProcessByLastName {
     //  Reading process .txt file which contains set of Names
     try {
         File setOfNames = new File("unsorted-names-list.txt");
-        //  or you can change any other file(s) as you wanted to sort. 
-        //  Just change the file name "unsorted-names-list.txt" above to "your-file.txt"
+        //  You can change any other file(s) as you wanted to sort. 
+        //  Just change the file name from "unsorted-names-list.txt" above to "your-own-file.txt"
+        
         Scanner readNames = new Scanner(setOfNames);
         while (readNames.hasNextLine()){
             String data = readNames.nextLine();

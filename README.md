@@ -2,9 +2,7 @@
     <img src="https://www.kst.co.id/images/kst-logo-100x100.png" alt="KST task logo" title="KST" align="right" height="60" />
 </a>
 
-# KST - Sorting Names
-
-Documentation for Application
+# KST - Names Sorter App Documentation
 
 ## Table of content
 
@@ -18,8 +16,8 @@ Documentation for Application
 - [Usage Example / Running the App](#usage-example--running-the-app)
 
 ## About
-This Lightweight app is made to sort List of names from desired file which already available and located inside this project
-("unsorted-names-list.txt") then we save them into another file ("sorted-names-list.txt").
+This Lightweight _'Names Sorter App'_ is made to sort the List of person names from desired file which already available and located inside this project
+("unsorted-names-list.txt"), then we save the sorted result into another file ("sorted-names-list.txt").
 
 ## Environment, Tools, and Unit Testing
 - Apache Maven 3.8.4    => https://maven.apache.org/
@@ -30,24 +28,34 @@ This Lightweight app is made to sort List of names from desired file which alrea
 
 - Junit5 (Unit Testing) => https://junit.org/junit5/
 
-The reason of using Maven on this Repo:  
 ```
 ✅  No need 'specific IDEs'. Feel free to use any text editor to open the project. 
 
-✅  Easy to use. Because ee don't do repeated activities such as starting, stop,  
+✅  Easy to use. We don't do repeated activities such as starting, stop,  
     or even restart local server on this project.  
-    
-✅  Straightforward to check the code result on terminal by using java command  
-    you'll see it on below)
+
+✅  Straightforward. We check the application result on the terminal by using java command  
+    (you'll see it on below)
 ```
 ## Project Tree Details
 
 
 ## Usage Example / Running the App
-- Download or clone this repository to your local
-- Open this project folder with any IDE/Text Editor that you desired. 
-- Then run the maven command on the integrated terminal.
-- or.. you can directly go to the folder location of this project that you just downloaded through CMD/Terminal
-- input this command and press enter on your cmd/terminal
-    mvn
--
+a. Download or clone this repository to your local  
+b. Open the project folder that you just downloaded with any IDE/Text Editor that you desired. 
+c. Then run this maven command on your integrated terminal (vscode for example).  
+d. (ALTERNATIVE) You can navigate to the folder location of this project that you just downloaded through CMD/Terminal.  
+e. Type or copy this command and press enter on your command prompt / terminal
+    Windows
+    mvn  
+
+    UNIX/LINUX/Mac
+    mvn  
+f. We can check and review the result.  
+
+You can still run the app without maven or mvn commend ,etc.
+Straight 
+
+
+<br />
+#### By Haidar Ali.
