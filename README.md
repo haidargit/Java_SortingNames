@@ -1,4 +1,8 @@
-# KST-SortingThousandNames-Haidar_Ali
+<a href="https://github.com/haidargit/KST-SortingThousandNames-Haidar_Ali">
+    <img src="https://aimeos.org/fileadmin/template/icons/logo.png" alt="KST task logo" title="KST" align="right" height="60" />
+</a>
+
+# KST - Sorting Names
 
 Application Docs for Name Sorter
 
