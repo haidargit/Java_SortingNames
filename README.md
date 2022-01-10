@@ -4,33 +4,43 @@
 
 # KST - Sorting Names
 
-Application Docs for Name Sorter
+Documentation for Application
 
-1) About  
+## Table of content
+
+- [About](#about)
+- [Environment, Tools, and Unit Testing](#tools)
+- [Project Tree Details](#project-tree-details)
+    - [Upload the page tree file](#upload-the-page-tree-file)
+    - [Go to the import view](#go-to-the-import-view)
+    - [Import the page tree](#import-the-page-tree)
+    - [SEO-friendly URLs](#seo-friendly-urls)
+- [Usage Example / Running the App](#usage)
+
+## About
 This app is made to sort List of names from desired file which already available and located inside this project
-("unsorted-names-list.txt") then we save them into another file ("sorted-names-list.txt")
+("unsorted-names-list.txt") then we save them into another file ("sorted-names-list.txt").
 
-2) Environment, Libs, Tools  
+## Environment, Tools, and Unit Testing
 - Apache Maven 3.8.4    => https://maven.apache.org/
 
 - Java 8 (JDK)          => https://www.oracle.com/java/technologies/java-se-glance.html
 
 - Maven Shaded Plugin   => https://maven.apache.org/plugins/maven-shade-plugin/usage.html
 
-- Junit5                => https://junit.org/junit5/
+- Junit5 (Unit Testing) => https://junit.org/junit5/
 
-The reason of using Maven:
-the main idea, you can directly see the result in command prompt/terminal
+The reason of using Maven on this Repo:  
 ```
-✅  No need to run local server/localhost by using 'specific IDEs' or anything  
-✅  Lightweight  
-✅  Straightforward to check the code result on terminal by using a command (you'll see on below)
+✅  No need 'specific IDEs'. Feel free to use any text editor to open the project.  
+✅  Easy to use (for a moment). We don't do repeated activities by starting, stop, or even restart the local server on this project.  
+✅  Straightforward to check the code result on terminal by using java command (you'll see on below)
 ```
-3) Project Tree Details  
+## Project Tree Details
 
 
-4) Usage Example / Running the App  
-- Download this repository
+## Usage Example / Running the App
+- Download or clone this repository to your local
 - Open this project folder with any IDE/Text Editor that you desired. 
 - Then run the maven command on the integrated terminal.
 - or.. you can directly go to the folder location of this project that you just downloaded through CMD/Terminal
