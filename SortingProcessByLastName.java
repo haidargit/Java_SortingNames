@@ -1,5 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -7,30 +9,50 @@ import java.util.Scanner;
 
 public class SortingProcessByLastName {
 
-  public void sortLast(ArrayList<String> al) {
+  public void sortLast(ArrayList<String> al) throws IOException {
     Collections.sort(al, new Comparator<String> () {
       @Override
       public int compare(String o1, String o2) {
-        String[] split1 = o1.split(" ");
-        String[] split2 = o2.split(" ");
-        String lastName1 = split1[1];
-        String lastName2 = split2[1];
-        if (lastName1.compareTo(lastName2) > 0) {
-          return 1;
-        } else {
-          return -1;
-        }
+        // Using Regex expression \\s+  which matches sequence of one or more whitespace characters
+        String[] left = o1.split("\\s+");
+        String[] rightCorner = o2.split("\\s+");
+        
+        return left[left.length - 1].compareTo(rightCorner[rightCorner.length - 1]);
       }
     });
-    System.out.println(al);
+
+    // Insert the sorted names into the other file ==> sorted-names-list.txt
+    FileWriter writer = new FileWriter("sorted-names-list.txt");
+    for(String result: al){
+        writer.write(result + System.lineSeparator());
+    }
+    writer.close();
+
+    try {
+        File sortedResult = new File("sorted-names-list.txt");
+        Scanner readResultNames = new Scanner(sortedResult);
+        while (readResultNames.hasNextLine()){
+            String data = readResultNames.nextLine();
+            System.out.println(data);
+        }
+
+        // close the scanner/input read
+        readResultNames.close();
+    } catch (FileNotFoundException e) {
+        System.out.println("Make sure the File name/location is valid.");
+        e.printStackTrace();
+    }
   }
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws IOException {
     // creating new instance of Array List object for names
     ArrayList<String> al = new ArrayList<String> ();
 
+    //  Reading process .txt file which contains set of Names
+    //  or you can change any other file(s) as you wanted to sort. 
+    //  Just change the file name unsorted-names-list.txt to your-file.txt
     try {
-        File setOfNames = new File("unsorted-names-list");
+        File setOfNames = new File("unsorted-names-list.txt");
         Scanner readNames = new Scanner(setOfNames);
         while (readNames.hasNextLine()){
             String data = readNames.nextLine();
@@ -43,13 +65,9 @@ public class SortingProcessByLastName {
         System.out.println("Make sure the File name/location is valid.");
         e.printStackTrace();
     }
-    // al.add("Daenerys Targaryen");
-    // al.add("Jon Show");
-    // al.add("Tyrion Lannister");
-    // al.add("Joffrey Baratheon");
     SortingProcessByLastName i = new SortingProcessByLastName();
     
-    System.out.println("Sorting a set of names using their Last name");
+    System.out.println("## Sort a set of names using their Last name ## \n");
     i.sortLast(al);
   }
 
