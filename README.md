@@ -41,10 +41,14 @@ This Lightweight _'Names Sorter App'_ is made to sort the List of person names f
 
 
 ## Usage Example / Running the App
-a. Download or clone this repository to your local  
-b. Open the project folder that you just downloaded with any IDE/Text Editor that you desired. 
-c. Then run this maven command on your integrated terminal (vscode for example).  
-d. (ALTERNATIVE) You can navigate to the folder location of this project that you just downloaded through CMD/Terminal.  
+a. Download or clone this repository to your local
+
+b. Open the project folder that you just downloaded with any IDE/Text Editor that you desired.
+
+c. Then run this maven command on your integrated terminal (vscode for example).
+
+d. (ALTERNATIVE) You can navigate to the folder location of this project that you just downloaded through CMD/Terminal.
+
 e. Type or copy this command and press enter on your command prompt / terminal
     Windows
     mvn  
@@ -58,4 +62,5 @@ Straight
 
 
 <br />
-#### By Haidar Ali.
+
+#### By Haidar Ali
