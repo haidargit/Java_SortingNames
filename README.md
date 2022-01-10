@@ -9,13 +9,13 @@ Documentation for Application
 ## Table of content
 
 - [About](#about)
-- [Environment, Tools, and Unit Testing](#tools)
+- [Environment, Tools, and Unit Testing](#environment,-tools,-and-unit-testing)
 - [Project Tree Details](#project-tree-details)
     - [Upload the page tree file](#upload-the-page-tree-file)
     - [Go to the import view](#go-to-the-import-view)
     - [Import the page tree](#import-the-page-tree)
     - [SEO-friendly URLs](#seo-friendly-urls)
-- [Usage Example / Running the App](#usage)
+- [Usage Example / Running the App](#usage-example-/-running-the-app)
 
 ## About
 This app is made to sort List of names from desired file which already available and located inside this project
