@@ -33,8 +33,10 @@ This Lightweight app is made to sort List of names from desired file which alrea
 The reason of using Maven on this Repo:  
 ```
 ✅  No need 'specific IDEs'. Feel free to use any text editor to open the project.  
-✅  Easy to use. Because ee don't do repeated activities such as starting, stop, <br /> or even restart local server on this project.  
-✅  Straightforward to check the code result on terminal by using java command <br  />(you'll see it on below)
+✅  Easy to use. Because ee don't do repeated activities such as starting, stop,  
+    or even restart local server on this project.  
+✅  Straightforward to check the code result on terminal by using java command  
+    you'll see it on below)
 ```
 ## Project Tree Details
 
