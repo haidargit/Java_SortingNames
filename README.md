@@ -74,7 +74,7 @@ mvn compile && mvn clean install
 Then,  
 ```
 mvn exec:java -Dexec.mainClass=com.haidar.App  
-```
+```  
 UNIX/LINUX/Mac
 ```
 mvn compile && mvn clean install  
