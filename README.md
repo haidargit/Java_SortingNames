@@ -7,7 +7,7 @@
 ## Table of content
 
 - [About](#about)
-- [Environment, Tools, and Unit Testing](#language-environment-and-unit-testing)
+- [Stack](#stack)
 - [Prerequisites](#prerequisites)
 - [Project Tree Details](#project-tree-details)
     - [Upload the page tree file](#upload-the-page-tree-file)
