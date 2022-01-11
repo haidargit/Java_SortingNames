@@ -64,7 +64,7 @@ a. Download or clone this repository to your local computer
 b. Navigate to the folder location of this project that you just downloaded through command prompt(CMD) or Terminal.
 
 c. Type or copy these commands on your command prompt or terminal  
-(Both of these commands runnabel on Linux/Mac/Windows)  
+(Both of these commands runnable on Linux/Mac/Windows)  
 
 _Remember to install Maven (and Java) first._  
 
@@ -80,10 +80,17 @@ d. We can check and review the result.
 
 
 ## Code Editing and Modification Purpose
-a. Open the project folder with any IDE/Text Editor that you desired.
+a. Open the project folder with any IDE/Text Editor that you desired.  
+
+b. Explore, locate, and modify any java file, resources (the .txt files that contain names), unit test that you wanted.  
+
+c. After you finish your editing process, re-run these commands again  
+```
+mvn exec:java -Dexec.mainClass=com.haidar.App  
+```
 
 <br />
 
-_if there's any issue regarding installation, kindly to inform me._    
+_If there's any issue regarding installation, kindly to inform me.._    
   
 #### By Haidar Ali
