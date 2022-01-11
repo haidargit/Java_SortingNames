@@ -67,8 +67,11 @@ c. Type or copy these commands on your command prompt or terminal
     Windows OS  
     ```
     mvn compile  
+
     mvn clean install  
+
     mvn exec:java -Dexec.mainClass=com.haidar.App  
+    
     ```
 
     UNIX/LINUX/Mac
