@@ -38,7 +38,7 @@ This Lightweight _'Names Sorter App'_ is made to sort the List of person names f
 ```
 
 ## Prerequisites
-Please make sure that you have installed:
+Please make sure that you have installed:  
 a. Maven: https://maven.apache.org/install.html
 b. Java: 8 (minimum version)
 
@@ -50,8 +50,8 @@ Use this command to check installed Java version on your system:
 ```
 java -v
 ```
-_**as i mentioned earlier, we don't want to get bothered by must using specific IDEs for funning this Java maven app.   
-So, by using Maven (mvn) command through cmd or terminal, you can run this app everywhere easily.**_
+_**as i mentioned earlier,  
+we don't want to get bothered by must using specific IDEs for funning this Java maven app. So, by using Maven (mvn) command through cmd or terminal, you can run this app everywhere easily.**_
 
 ## Project Tree Details
 
