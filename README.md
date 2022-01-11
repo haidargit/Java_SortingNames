@@ -8,6 +8,7 @@
 
 - [About](#about)
 - [Environment, Tools, and Unit Testing](#language-environment-and-unit-testing)
+- [Prerequisites](#prerequisites)
 - [Project Tree Details](#project-tree-details)
     - [Upload the page tree file](#upload-the-page-tree-file)
     - [Go to the import view](#go-to-the-import-view)
@@ -39,13 +40,19 @@ This Lightweight _'Names Sorter App'_ is made to sort the List of person names f
 ## Prerequisites
 Please make sure that you have installed:
 a. Maven: https://maven.apache.org/install.html
-b. Java: 8 (minimum)
+b. Java: 8 (minimum version)
 
-how to check version maven:
+Use this command to check installed Maven version on your system:
+```
 mvn -v
-
-how to check version java:
+```
+Use this command to check installed Java version on your system:
+```
 java -v
+```
+_**as i mentioned earlier, we don't want to get bothered by must using specific IDEs for funning this Java maven app.   
+So, by using Maven (mvn) command through cmd or terminal, you can run this app everywhere easily.**_
+
 ## Project Tree Details
 
 
