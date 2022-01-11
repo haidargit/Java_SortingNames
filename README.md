@@ -70,11 +70,17 @@ _Remember to install Maven (and Java) first._
 Windows OS  
 ```
 mvn compile && mvn clean install  
+```
+Then,  
+```
 mvn exec:java -Dexec.mainClass=com.haidar.App  
 ```
 UNIX/LINUX/Mac
 ```
 mvn compile && mvn clean install  
+```
+Then,  
+```
 mvn exec:java -Dexec.mainClass=com.haidar.App  
 
 ```
