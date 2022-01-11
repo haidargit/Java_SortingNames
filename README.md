@@ -20,7 +20,7 @@
 This Lightweight _'Names Sorter App'_ is made to sort the List of person names from desired file which already available and located inside this project
 ("unsorted-names-list.txt"), then we save the sorted result into another file ("sorted-names-list.txt").
 
-## Languange, Environment, and Unit Testing
+## Stack
 - Apache Maven 3.8.4    => https://maven.apache.org/
 
 - Java 8 (JDK)          => https://www.oracle.com/java/technologies/java-se-glance.html
