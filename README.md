@@ -24,12 +24,12 @@ This Lightweight _'Names Sorter App'_ is made to sort the List of person names f
 ## Stack
 - Apache Maven 3.8.4    => https://maven.apache.org/
 
-- Java 8 (JDK)          => https://www.oracle.com/java/technologies/java-se-glance.html
+- Java          => https://www.oracle.com/java/technologies/java-se-glance.html
 
 - Junit5 (Unit Testing) => https://junit.org/junit5/
 
 ```
-✅  No need 'specific IDEs'. Feel free to use any text editor to open the project. 
+✅  No need 'specific IDEs'. Feel free to use any text editor to open the project folder. 
 
 ✅  Straightforward and easy to use. Since we don't do repeated activities such as starting, stop,  
     or even restart local server for this app project.  
@@ -62,16 +62,19 @@ a. Download or clone this repository to your local computer
 
 b. Navigate to the folder location of this project that you just downloaded through command prompt(CMD) or Terminal.
 
-c. Type or copy these commands on your command prompt or terminal
-    **Remember to install MAVEN first.
+c. Type or copy these commands on your command prompt or terminal  
+    **~Remember to install MAVEN first.**  
     Windows OS
+    ```
     mvn compile
     mvn clean install
     mvn exec:java -Dexec.mainClass=com.haidar.App
-
+    ```
 
     UNIX/LINUX/Mac
+    ```
     mvn
+    ```
 
 d. We can check and review the result.  
 
