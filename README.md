@@ -14,7 +14,8 @@
     - [Go to the import view](#go-to-the-import-view)
     - [Import the page tree](#import-the-page-tree)
     - [SEO-friendly URLs](#seo-friendly-urls)
-- [Usage Example / Running the App](#usage-example---running-the-app)
+- [Usage Example - Running the App](#usage-example---running-the-app)
+- [Code Editing and Modification Purpose](#code-editing-and-modification-purpose)
 
 ## About
 This Lightweight _'Names Sorter App'_ is made to sort the List of person names from desired file which already available and located inside this project
@@ -73,8 +74,6 @@ c. Type or copy these commands on your command prompt or terminal
     mvn
 
 d. We can check and review the result.  
-
-
 
 
 ## Code Editing and Modification Purpose
