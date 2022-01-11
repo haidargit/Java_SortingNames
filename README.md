@@ -18,8 +18,7 @@
 - [Code Editing and Modification Purpose](#code-editing-and-modification-purpose)
 
 ## About
-This Lightweight _'Names Sorter App'_ is made to sort the List of person names from desired file which already available and located inside this project
-("unsorted-names-list.txt"), then we save the sorted result into another file ("sorted-names-list.txt").
+This _'Names Sorter App'_ is made to sort the List of person names from desired file which already available and located inside this project("unsorted-names-list.txt"), then we save the sorted result into another file ("sorted-names-list.txt").
 
 ## Stack
 - Apache Maven 3.8.4    => https://maven.apache.org/
@@ -52,9 +51,9 @@ Use this command to check the Java version on your system:
 java -v
 ```
 _as i mentioned earlier, we don't want to be bothered by choosing specific IDEs/Text Editor for   
-funning this Java maven app.  
+funning this Java maven app._  
 
-So, by using Maven (mvn) command through cmd or terminal, you can run this app easily._
+_So, by using Maven (mvn) command through cmd or terminal, you can run this app easily._
 
 ## Project Tree Details
 
