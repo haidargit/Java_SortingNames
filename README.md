@@ -63,11 +63,10 @@ a. Download or clone this repository to your local computer
 
 b. Navigate to the folder location of this project that you just downloaded through command prompt(CMD) or Terminal.
 
-c. Type or copy these commands on your command prompt or terminal  
+c. Type or copy these commands on your command prompt or terminal(Both of these commands runnabel on Linux/Mac/Windows)  
 
 _Remember to install Maven (and Java) first._  
 
-Windows OS  
 ```
 mvn compile && mvn clean install  
 ```
@@ -75,15 +74,6 @@ Then,
 ```
 mvn exec:java -Dexec.mainClass=com.haidar.App  
 ```  
-UNIX/LINUX/Mac
-```
-mvn compile && mvn clean install  
-```
-Then,  
-```
-mvn exec:java -Dexec.mainClass=com.haidar.App  
-
-```
 
 d. We can check and review the result.  
 
