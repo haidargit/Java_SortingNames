@@ -81,6 +81,7 @@ d. We can check and review the result.
 a. Open the project folder with any IDE/Text Editor that you desired.
 
 <br />
+
 _if there's any issue regarding installation, kindly to inform me._    
   
 #### By Haidar Ali
