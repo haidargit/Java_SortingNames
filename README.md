@@ -51,7 +51,7 @@ Use this command to check the Java version on your system:
 java -v
 ```
 _as i mentioned earlier, we don't want to be bothered by choosing specific IDEs/Text Editor for   
-funning this Java maven app._  
+running this Java maven app._  
 
 _So, by using Maven (mvn) command through cmd or terminal, you can run this app easily._
 
@@ -69,13 +69,14 @@ _Remember to install Maven (and Java) first._
 
 Windows OS  
 ```
-mvn compile  
-mvn clean install  
+mvn compile && mvn clean install  
 mvn exec:java -Dexec.mainClass=com.haidar.App  
 ```
 UNIX/LINUX/Mac
 ```
-mvn
+mvn compile && mvn clean install  
+mvn exec:java -Dexec.mainClass=com.haidar.App  
+
 ```
 
 d. We can check and review the result.  
