@@ -37,6 +37,11 @@
     </dependency>
   </dependencies>
   <build>
+    <resources>
+        <resource>
+            <directory>src/main/resources</directory>
+        </resource>
+    </resources>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -82,7 +87,7 @@
         <executions>
           <execution>
             <id>checkstyle</id>
-            <phase>validate</phase>
+            <phase>no</phase>
             <goals>
               <goal>check</goal>
             </goals>

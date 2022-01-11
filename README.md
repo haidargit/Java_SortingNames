@@ -13,7 +13,7 @@
     - [Go to the import view](#go-to-the-import-view)
     - [Import the page tree](#import-the-page-tree)
     - [SEO-friendly URLs](#seo-friendly-urls)
-- [Usage Example / Running the App](#usage-example--running-the-app)
+- [Usage Example / Running the App](#usage-example---running-the-app)
 
 ## About
 This Lightweight _'Names Sorter App'_ is made to sort the List of person names from desired file which already available and located inside this project
@@ -35,30 +35,45 @@ This Lightweight _'Names Sorter App'_ is made to sort the List of person names f
 ✅  We check the application result on the Command Prompt / terminal by using java command  
     (you'll see it on below)
 ```
+
+## Prerequisites
+Please make sure that you have installed:
+a. Maven: https://maven.apache.org/install.html
+b. Java: 8 (minimum)
+
+how to check version maven:
+mvn -v
+
+how to check version java:
+java -v
 ## Project Tree Details
 
 
-## Usage Example / Running the App
-a. Download or clone this repository to your local
+## Usage Example - Running the App
+a. Download or clone this repository to your local computer
 
-b. Open the project folder that you just downloaded with any IDE/Text Editor that you desired.
+b. Navigate to the folder location of this project that you just downloaded through command prompt(CMD) or Terminal.
 
-c. You can navigate to the folder location of this project that you just downloaded through CMD/Terminal.
+c. Type or copy these commands on your command prompt or terminal
+    **Remember to install MAVEN first.
+    Windows OS
+    mvn compile
+    mvn clean install
+    mvn exec:java -Dexec.mainClass=com.haidar.App
 
-   Or, you can also run the maven command below with any integrated terminal (inside IDE).
-
-e. Type or copy this command and press enter on your command prompt / terminal
-    Windows
-    mvn  
 
     UNIX/LINUX/Mac
     mvn
 
-f. We can check and review the result.  
+d. We can check and review the result.  
 
-You can still run the app without maven or mvn commend ,etc.
-Straight
+
+
+
+## Code Editing and Modification Purpose
+a. Open the project folder with any IDE/Text Editor that you desired.
+
 <br />
-if there's any issue regarding installation/operation, kindly to inform me.  
+if there's any issue regarding installation, kindly to inform me.  
 
 #### By Haidar Ali

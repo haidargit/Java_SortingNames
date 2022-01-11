@@ -1,28 +1,30 @@
 package com.haidar;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
 
 public final class App {
 
     // Methods for showing the result
-    public void showSortedNames() {
-        try {
-            File sortedResult = new File("sorted-names-list.txt");
-            Scanner readResultNames = new Scanner(sortedResult);
-            while (readResultNames.hasNextLine()) {
-                String data = readResultNames.nextLine();
-                System.out.println(data);
-            }
+    public void showSortedNames() throws FileNotFoundException {
+        // File sortedResult = new File("sorted-names-list.txt");
+        // GetFileFromResource getTxtFileClass = new GetFileFromResource();
 
-            // close the scanner/input read
-            readResultNames.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("Make sure the File name/location is valid.");
-            e.printStackTrace();
+        String fileName = "/sorted-names-list.txt";
+        Path currentRelativePath = Paths.get("");
+        String pathResult = currentRelativePath.toAbsolutePath().toString();
+        Scanner readResultNames = new Scanner(pathResult+fileName);
+        while (readResultNames.hasNextLine()) {
+            String data = readResultNames.nextLine();
+            System.out.println(data);
         }
+
+        // close the scanner/input read
+        readResultNames.close();
     }
 
     public static void main(String[] args) throws IOException {
@@ -30,9 +32,7 @@ public final class App {
         SortingMethod sortingClassInstantiation = new SortingMethod();
 
         sortingClassInstantiation.sortByLastName();
-        System.out.println("## Sorted result by using their Last name ## \n");
+        System.out.println("# # Below are the sorted result by using their last name # # \n");
         appInstantiation.showSortedNames();
-
-
     }
 }
