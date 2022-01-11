@@ -32,5 +32,7 @@ public final class App {
         sortingClassInstantiation.sortByLastName();
         System.out.println("## Sorted result by using their Last name ## \n");
         appInstantiation.showSortedNames();
+
+
     }
 }

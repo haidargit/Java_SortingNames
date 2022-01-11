@@ -4,9 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
+import java.io.IOException;
 
 /**
  * This is Unit test for 'Name Sorter App'
@@ -14,50 +12,20 @@ import java.util.Scanner;
 class AppTest {
 
     @Test
-    void testApp() {
-        // App sorterAppUnitTest = new App();
-        // test call 
+    void testApp() throws IOException {
+        // instantiate Sorting Method and CountTotalUnsortedAndSortedTestclass to call sortByLastName primary method, and etc.
+        SortingMethod sortingClass = new SortingMethod();
+        sortingClass.sortByLastName();
+        CountTotalUnsortedAndSortedTest countClass = new CountTotalUnsortedAndSortedTest(); 
         
-
-        // Counting how many names inside unsorted file
-        int nameCountExpected = 0;
-
-        // Reading process of .txt file which contains the set of Unsorted Names
-        try {
-            File setOfNames = new File("unsorted-names-list.txt");
-            // or you can change any other file(s) as you wanted to sort.
-            // Just change the file name "unsorted-names-list.txt" above to "your-file.txt"
-            Scanner readNames = new Scanner(setOfNames);
-            while (readNames.hasNextLine()) {
-                nameCountExpected +=1;
-            }
-
-            // close the scanner/input read
-            readNames.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("Make sure the File name/location is valid.");
-            e.printStackTrace();
-        }
-
-        // Counting how many names inside Sorted file. 
-        // The expected total names should be same with the total actual names after sorting
-        int nameCountActual = 10;
-
-        // Reading process of .txt file which contains the set of Sorted Names
-        try {
-            File setOfNames = new File("sorted-names-list.txt");
-            Scanner readNames = new Scanner(setOfNames);
-            while (readNames.hasNextLine()) {
-                nameCountActual +=1;
-            }
-
-            readNames.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("Make sure the File name/location is valid.");
-            e.printStackTrace();
-        }
+        // First Unit Test Idea
+        // Comparing the sum total of names from the sorted-names-list.txt and sorted-names-list.txt
+        // Both totals should be same
+        assertEquals(countClass.sumTotalSortedNames(), countClass.sumTotalUnsortedNames());
+        assertEquals(10, countClass.sumTotalUnsortedNames());
         
-        assertEquals(nameCountExpected, nameCountActual);
-
+        // Second Unit Test Idea
+        // We'll add continuous space character or whitespaces to test our primay method sortByLastName
+        // Then our method must persistent and know the Last Name, even though we have so many spaces.
     }
 }

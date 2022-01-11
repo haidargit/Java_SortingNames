@@ -16,8 +16,7 @@ public class SortingMethod {
         Collections.sort(unsortedNames, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
-                // Using Regex expression \\s+ which matches sequence of one or more whitespace
-                // characters
+                // Using Regex expression \\s+ which matches sequence of one or more whitespace characters
                 String[] left = o1.split("\\s+");
                 String[] rightCorner = o2.split("\\s+");
 
