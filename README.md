@@ -57,8 +57,8 @@ e. Type or copy this command and press enter on your command prompt / terminal
 f. We can check and review the result.  
 
 You can still run the app without maven or mvn commend ,etc.
-Straight 
-
+Straight
 <br />
-if there's any technical issue, kindly to inform me.  
+if there's any issue regarding installation/operation, kindly to inform me.  
+
 #### By Haidar Ali
