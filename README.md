@@ -63,7 +63,7 @@ a. Download or clone this repository to your local computer
 b. Navigate to the folder location of this project that you just downloaded through command prompt(CMD) or Terminal.
 
 c. Type or copy these commands on your command prompt or terminal  
-**~ Remember to install MAVEN(and Java) first.**  
+_~ Remember to install MAVEN(and Java) first._  
 Windows OS  
 ```
 mvn compile  
