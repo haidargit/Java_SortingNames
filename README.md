@@ -63,7 +63,7 @@ a. Download or clone this repository to your local computer
 
 b. Navigate to the folder location of this project that you just downloaded through command prompt(CMD) or Terminal.
 
-c. Type or copy these commands on your command prompt or terminal(Both of these commands runnabel on Linux/Mac/Windows)  
+c. Type or copy these commands on your command prompt or terminal  (Both of these commands runnabel on Linux/Mac/Windows)  
 
 _Remember to install Maven (and Java) first._  
 
