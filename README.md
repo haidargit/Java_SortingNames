@@ -18,12 +18,12 @@
 - [Code Editing and Modification Purpose](#code-editing-and-modification-purpose)
 
 ## About
-This _'Names Sorter App'_ is made to sort the List of person names from desired file which already available and located inside this project("unsorted-names-list.txt"), then we save the sorted result into another file ("sorted-names-list.txt").
+This _'Names Sorter App'_ is made to sort the List of person names from the desired file which already available and located inside this project("unsorted-names-list.txt"), then we save the sorted result into another file ("sorted-names-list.txt").
 
 ## Stack
 - Apache Maven 3.8.4    => https://maven.apache.org/
 
-- Java          => https://www.oracle.com/java/technologies/java-se-glance.html
+- Java                  => https://www.oracle.com/java/technologies/java-se-glance.html
 
 - Junit5 (Unit Testing) => https://junit.org/junit5/
 
@@ -38,7 +38,7 @@ This _'Names Sorter App'_ is made to sort the List of person names from desired 
 ```
 
 ## Prerequisites
-Please make sure that you have installed:  
+**Please make sure that you have installed**:  
 a. Maven: https://maven.apache.org/install.html  
 b. Java: 8 (minimum version)
 
