@@ -30,8 +30,8 @@ This _'Names Sorter App'_ is made to sort the List of person names from desired 
 ```
 ✅  No need 'specific IDEs'. Feel free to use any text editor to open the project folder. 
 
-✅  Straightforward and easy to use. Since we don't do repeated activities such as starting, stop,  
-    or even restart local server for this app project.  
+✅  Straightforward and easy to use. **Since we don't do repetitive activities such as start, stop,**  
+**or even restart the local server for this app project.**    
 
 ✅  We check the application result on the Command Prompt / terminal by using java command  
     (you'll see it on below)
@@ -84,7 +84,8 @@ a. Open the project folder with any IDE/Text Editor that you desired.
 
 b. Explore, locate, and modify any java file, resources (the .txt files that contain names), unit test that you wanted.  
 
-c. After you finish your editing process, re-run these commands again. _Make sure to navigate at project's root directory where the pom.xml lies, so you can run the 'mvn' command._
+c. After you finish your editing process, re-run these commands again.  
+_Make sure to navigate at project's root directory where the pom.xml lies, so you can run the 'mvn' command._
 ```
 mvn exec:java -Dexec.mainClass=com.haidar.App  
 ```
