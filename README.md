@@ -52,10 +52,12 @@ Use this command to check the Java version on your system:
 ```
 java -v
 ```
+<br />
 _💡 as i mentioned earlier, we don't want to be bothered by choosing specific IDEs/Text Editor for   
-running this Java maven app._  
+running/opening this Java maven app._  
 
-_💡 So, by using Maven (mvn) command through cmd or terminal, you can run this app easily._
+_💡 By using Maven (mvn) command through our cmd or terminal, we can run this app easily ang get the result._
+
 
 ## Project Tree Details
 
