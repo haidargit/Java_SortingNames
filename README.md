@@ -14,8 +14,7 @@
 - [Usage Example - Running the App](#usage-example---running-the-app)
 - [Usage Example - Running the Unit Test](#usage-example---running-the-unit-test)
 - [Code Editing and Modification Purpose](#code-editing-and-modification-purpose)
-- [CI / Pipeline Using Jenkins (Additional)](#)
-
+- [CI / Pipeline Using Jenkins (Additional)](#ci--pipeline-using-jenkins-additional)
 
 
 ## About
@@ -138,8 +137,10 @@ d. You can then see the modified result.
 _🦠If there's any issue regarding installation and debugging, kindly to inform me.._    
 
 ## CI / Pipeline Using Jenkins (Additional)  
-Using Free CI-CD tools Jenkins as buil and test pipelines  
-Environment: AWS Virtual Server (EC2)
+Example of using Free CI-CD tools Jenkins as build and test pipelines on AWS Virtual Server (EC2).  
+
+Steps:  
+
 ![Screen Shot 2022-01-12 at 12 16 04](https://user-images.githubusercontent.com/33404432/149071762-afc6c018-e1ea-4a5b-94e7-21e3432ee562.jpg)
 <br />
 ![Screen Shot 2022-01-12 at 12 29 13](https://user-images.githubusercontent.com/33404432/149071773-6efad5af-ab79-4c9a-a873-b315a72be996.png)
