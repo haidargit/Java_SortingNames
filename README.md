@@ -52,7 +52,8 @@ Use this command to check the Java version on your system:
 ```
 java -v
 ```
-<br />
+<br />  
+
 _💡 as i mentioned earlier, we don't want to be bothered by choosing specific IDEs/Text Editor for   
 running/opening this Java maven app._  
 
