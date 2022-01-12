@@ -1,9 +1,11 @@
 package com.haidar;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.PrintWriter;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -30,6 +32,7 @@ public class SortingMethod {
         // After running the sorting method above,
         // insert the sorted names into the destination file   ==>   "sorted-names-list.txt"
         FileWriter writer = new FileWriter("sorted-names-list.txt");
+
         for (String result : unsortedNames) {
             writer.write(result + System.lineSeparator());
         }
