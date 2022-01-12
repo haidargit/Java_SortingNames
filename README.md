@@ -3,6 +3,7 @@
 </a>
 
 # KST - Names Sorter App Documentation
+![gitab](https://user-images.githubusercontent.com/33404432/149063206-592252f7-20ce-4e29-beab-8159fdc363e3.jpg)
 
 ## Table of content
 
@@ -10,15 +11,16 @@
 - [Stack](#stack)
 - [Prerequisites](#prerequisites)
 - [Project Tree Details](#project-tree-details)
-    - [Upload the page tree file](#upload-the-page-tree-file)
-    - [Go to the import view](#go-to-the-import-view)
-    - [Import the page tree](#import-the-page-tree)
-    - [SEO-friendly URLs](#seo-friendly-urls)
 - [Usage Example - Running the App](#usage-example---running-the-app)
+- [Usage Example - Running the Unit Test](#usage-example---running-the-unit-test)
 - [Code Editing and Modification Purpose](#code-editing-and-modification-purpose)
+
+
 
 ## About
 This _'Names Sorter App'_ is made to sort the List of person names from the desired file which already available and located inside this project("unsorted-names-list.txt"), then we save the sorted result into another file ("sorted-names-list.txt").
+
+
 
 ## Stack
 - Apache Maven 3.8.4    => https://maven.apache.org/
@@ -36,6 +38,8 @@ This _'Names Sorter App'_ is made to sort the List of person names from the desi
 ✅  We check the application result on the Command Prompt / terminal by using java command  
     (you'll see it on below)
 ```
+
+
 
 ## Prerequisites
 **Please make sure that you have installed**:  
@@ -66,12 +70,21 @@ _💡 By using Maven (mvn) command through our cmd or terminal, we can run this 
 
 
 ## Project Tree Details
+![dir](https://user-images.githubusercontent.com/33404432/149060339-3935568f-1a1f-44e3-9bde-4e3578da670b.jpg)
+<br />
+A: Directory where Main java files/classes located  
 
+B: Directory where Unit test files/classes located  
 
+C: resources for _input("unsorted-names-list.txt")_ and _output("sorted-names-list.txt")._  
+<br />
+You can modify the Names as comprehensive and as many as you want inside the **input** file.  
+The output file content will be always overwritten based on your result.  
 ## Usage Example - Running the App
 a. Download or clone this repository to your local computer
 
-b. Navigate to the folder location of this project that you just downloaded through command prompt(CMD) or Terminal. Go to the path where pom.xml is located.
+b. Navigate to the folder location of this project that you just downloaded through command prompt(CMD) or Terminal.  
+Go to the path where pom.xml is located (inside haidar folder = root).
 
 c. Then type or copy these commands on your command prompt or terminal  
 (Both of these commands runnable on Linux/Mac/Windows)  
@@ -79,9 +92,10 @@ c. Then type or copy these commands on your command prompt or terminal
 _Remember to install Maven (and Java) first._  
 
 ```
+<!-- Run this code just once, for installing dependencies. -->
 mvn compile && mvn clean install  
 ```
-Then run the app,  
+<br />Then run the app,  
 ```
 mvn exec:java -Dexec.mainClass=com.haidar.App  
 ```   
@@ -89,6 +103,15 @@ mvn exec:java -Dexec.mainClass=com.haidar.App
 We can check and review the result.  
 ![Screen Shot 2022-01-12 at 10 14 33](https://user-images.githubusercontent.com/33404432/149057592-72f9d12d-fb2d-4e73-a0d6-60d958680b5e.png)
 
+
+
+## Usage Example - Running the Unit Test
+
+a. same as above, just a little different command.   
+```
+mvn test
+```   
+![Screen Shot 2022-01-12 at 11 02 56](https://user-images.githubusercontent.com/33404432/149061906-f04b5e7c-81d1-4e16-97cb-d9a99b85ee8c.png)
 
 
 ## Code Editing and Modification Purpose
