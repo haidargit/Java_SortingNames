@@ -30,8 +30,8 @@ This _'Names Sorter App'_ is made to sort the List of person names from desired 
 ```
 ✅  No need 'specific IDEs'. Feel free to use any text editor to open the project folder. 
 
-✅  Straightforward and easy to use. **Since we don't do repetitive activities such as start, stop,**  
-**or even restart the local server for this app project.**    
+✅  Straightforward and easy to use. Since we don't do repetitive activities  
+such as start, stop, or even restart the local server for this app project.      
 
 ✅  We check the application result on the Command Prompt / terminal by using java command  
     (you'll see it on below)
