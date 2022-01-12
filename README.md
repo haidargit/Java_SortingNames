@@ -42,7 +42,7 @@ This _'Names Sorter App'_ is made to sort the List of person names from the desi
 
 
 ## Prerequisites
-**Please make sure that you have installed**:  
+**==>  Please make sure that you have installed  <==**:  
 
 a. Maven: https://maven.apache.org/install.html  
 
