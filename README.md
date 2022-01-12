@@ -84,7 +84,7 @@ a. Open the project folder with any IDE/Text Editor that you desired.
 
 b. Explore, locate, and modify any java file, resources (the .txt files that contain names), unit test that you wanted.  
 
-c. After you finish your editing process, re-run these commands again  
+c. After you finish your editing process, re-run these commands again. _Make sure to navigate at project's root directory where the pom.xml lies, so you can run the 'mvn' command._
 ```
 mvn exec:java -Dexec.mainClass=com.haidar.App  
 ```

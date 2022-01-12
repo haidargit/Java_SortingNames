@@ -31,19 +31,19 @@ class AppTest {
 
     }
 
-    // public static int sumTotalSortedNames() throws FileNotFoundException {
-    //     GetFileFromResource getTxtFileClass = new GetFileFromResource();
-    //     int nameCountActual = 0;
-    //     String fileName = "sorted-names-list.txt";
-    //     InputStream unsortedFile = getTxtFileClass.getFileFromResourceAsStream(fileName);
-    //     Scanner readNames = new Scanner(unsortedFile);
-    //     while (readNames.hasNextLine()) {
-    //         nameCountActual += 1;
-    //     }
+    public static int sumTotalSortedNames() throws FileNotFoundException {
+        GetFileFromResource getTxtFileClass = new GetFileFromResource();
+        int nameCountActual = 0;
+        String fileName = "sorted-names-list.txt";
+        InputStream unsortedFile = getTxtFileClass.getFileFromResourceAsStream(fileName);
+        Scanner readNames = new Scanner(unsortedFile);
+        while (readNames.hasNextLine()) {
+            nameCountActual += 1;
+        }
 
-    //     readNames.close();
-    //     return nameCountActual;
-    // }
+        readNames.close();
+        return nameCountActual;
+    }
 
     @Test
     void testApp() throws IOException {
@@ -51,7 +51,7 @@ class AppTest {
         // Comparing the sum total of names from the "sorted-names-list.txt" and "sorted-names-list.txt"
         // Both totals should be same
         // Assertions.assertEquals(AppTest.sumTotalUnsortedNames(), AppTest.sumTotalSortedNames());
-        assertEquals(AppTest.sumTotalUnsortedNames(), 10);
+        assertEquals(AppTest.sumTotalsortedNames(), 10);
 
         // 2nd Unit Test
         // We'll add continuous space character or whitespaces to test our primay method sortByLastName
