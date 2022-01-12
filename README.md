@@ -14,7 +14,7 @@
 - [Usage Example - Running the App](#usage-example---running-the-app)
 - [Usage Example - Running the Unit Test](#usage-example---running-the-unit-test)
 - [Code Editing and Modification Purpose](#code-editing-and-modification-purpose)
-- [CI / Pipeline Using Jenkins](#)
+- [CI / Pipeline Using Jenkins (Additional)](#)
 
 
 
@@ -133,9 +133,13 @@ mvn exec:java -Dexec.mainClass=com.haidar.App
 
 mvn test
 ```
-d. You can then see the modified result.
-<br /><br />  
+d. You can then see the modified result.  
 
 _🦠If there's any issue regarding installation and debugging, kindly to inform me.._    
-  
+
+## CI / Pipeline Using Jenkins (Additional)  
+Using Free CI-CD tools Jenkins as buil and test pipelines  
+Environment: AWS Virtual Server (EC2)  
+
+<br /><br />  
 #### By Haidar Ali
