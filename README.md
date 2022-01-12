@@ -14,6 +14,7 @@
 - [Usage Example - Running the App](#usage-example---running-the-app)
 - [Usage Example - Running the Unit Test](#usage-example---running-the-unit-test)
 - [Code Editing and Modification Purpose](#code-editing-and-modification-purpose)
+- [CI / Pipeline Using Jenkins](#)
 
 
 
@@ -42,7 +43,7 @@ This _'Names Sorter App'_ is made to sort the List of person names from the desi
 
 
 ## Prerequisites
-**==>  Please make sure that you have installed  <==**:  
+**==>  Please make sure that you have installed  <==**: 
 
 a. Maven: https://maven.apache.org/install.html  
 
