@@ -18,7 +18,7 @@
 
 
 ## About
-This 'Names Sorter App' is built to sort a List of Person Names by their Last Name from the desired file which is already available and located inside this project("unsorted-names-list.txt"), then we save the sorted result into another file ("sorted-names-list.txt").
+This 'Names Sorter App' is built to sort a List of Names by their Last Name from the desired file which is already available and located inside this project("unsorted-names-list.txt"), then we save the sorted result into another file ("sorted-names-list.txt").
 
 
 
