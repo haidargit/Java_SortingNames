@@ -18,22 +18,22 @@
 
 
 ## About
-This _'Names Sorter App'_ is made to sort the List of person names from the desired file which already available and located inside this project("unsorted-names-list.txt"), then we save the sorted result into another file ("sorted-names-list.txt").
+This 'Names Sorter App' is built to sort the List of Person Names from the desired file which is already available and located inside this project("unsorted-names-list.txt"), then we save the sorted result into another file ("sorted-names-list.txt").
 
 
 
 ## Stack
-- Apache Maven 3.8.4    => https://maven.apache.org/
+- Apache Maven    => https://maven.apache.org/
 
 - Java                  => https://www.oracle.com/java/technologies/java-se-glance.html
 
-- Junit5 (Unit Testing - already included with Maven project) => https://junit.org/junit5/
+- JUnit5 (Unit Testing - already included with Maven project) => https://junit.org/junit5/
 
 ```
 ✅  No need 'specific IDEs'. Feel free to use any text editor to open the project folder. 
 
 ✅  Straightforward and easy to use. Since we don't do repetitive activities  
-    such as start, stop, or even restart the local server for this app project.      
+    such as start, stop, or even restart the localhost/local server for this project.      
 
 ✅  We check the application result on the Command Prompt / terminal by using java command  
     (you'll see it on below)
@@ -42,13 +42,14 @@ This _'Names Sorter App'_ is made to sort the List of person names from the desi
 
 
 ## Prerequisites
-**==>  Please make sure that you have installed  <==**: 
+**==>  Please make sure that you have installed  <==**  
 
-a. Maven: https://maven.apache.org/install.html  
+a. Maven: https://maven.apache.org/install.html  (Main Size: ± 10MB)
+    
+b. Java 8 (minimum version) 
 
-b. Java: 8 (minimum version)
-
-Use these commands to check the Maven and Java version on your system (_runnable on both Windows and Linux_):
+Use these commands to check the Maven and Java version on your system  
+(_runnable on both Windows and Linux_):
 ```
 mvn -v
 ```
