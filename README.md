@@ -64,8 +64,8 @@ java --version
 
 <br />  
 
-_💡 as i mentioned earlier, we don't want to be bothered by choosing specific IDEs/Text Editor for   
-running/opening this Java maven app._  
+_💡 as i mentioned earlier, we don't want to be bothered by choosing specific IDEs/Text Editor_  
+    _for running/opening this Java maven app._  
 
 _💡 By using Maven (mvn) command through our cmd or terminal, we can run this app easily._
 <br />  
