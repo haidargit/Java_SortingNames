@@ -44,7 +44,7 @@ This 'Names Sorter App' is built to sort the List of Person Names from the desir
 ## Prerequisites
 **==>  Please make sure that you have installed  <==**  
 
-a. Maven: https://maven.apache.org/install.html  (Main Size: ± 10MB)
+a. Maven: https://maven.apache.org/install.html  (size: ± 10MB)
     
 b. Java 8 (minimum version) 
 
