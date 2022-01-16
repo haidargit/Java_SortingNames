@@ -67,8 +67,8 @@ java --version
 _💡 as i mentioned earlier, we don't want to be bothered by choosing specific IDEs/Text Editor for   
 running/opening this Java maven app._  
 
-_💡 By using Maven (mvn) command through our cmd or terminal, we can run this app easily ang get the result._
-
+_💡 By using Maven (mvn) command through our cmd or terminal, we can run this app easily._
+<br />  
 
 ## Project Tree Details
 ![dir](https://user-images.githubusercontent.com/33404432/149060339-3935568f-1a1f-44e3-9bde-4e3578da670b.jpg)
@@ -79,21 +79,20 @@ B: Directory where Unit test files/classes located
 
 C: resources for _input("unsorted-names-list.txt")_ and _output("sorted-names-list.txt")._  
 <br />
-You can modify the Names as comprehensive and as many as you want inside the **input** file.  
+You can modify the names as comprehensive and as many as you want inside the **input** file.  
 The output file content will be always overwritten based on your result.  
 ## Usage Example - Running the App
 a. Download or clone this repository to your local computer
 
-b. Navigate to the folder location of this project that you just downloaded through command prompt(CMD) or Terminal.  
-Go to the path where pom.xml is located (inside haidar folder = root).
+b. Navigate to the location of this project that you just downloaded through command prompt(CMD) or Terminal. Go to the path where pom.xml is located (inside haidar folder = root).
 
 c. Then type or copy these commands on your command prompt or terminal  
-(Both of these commands runnable on Linux/Mac/Windows)  
+(Both of these commands runnable on Windows/Linux/Mac)  
 
 _Remember to install Maven (and Java) first._  
 
 ```
-<!-- Run this code just once, for installing dependencies. -->
+<!-- Run this code just ONCE, for installing the project's dependencies. -->
 mvn compile && mvn clean install  
 ```
 <br />Then run the app,  
@@ -103,8 +102,6 @@ mvn exec:java -Dexec.mainClass=com.haidar.App
 
 We can check and review the result.  
 ![Screen Shot 2022-01-12 at 10 14 33](https://user-images.githubusercontent.com/33404432/149057592-72f9d12d-fb2d-4e73-a0d6-60d958680b5e.png)
-
-
 
 ## Usage Example - Running the Unit Test
 
@@ -116,7 +113,7 @@ mvn test
 
 
 ## Code Editing and Modification Purpose
-a. Open the project folder with any IDE/Text Editor that you desired, i.e Sublime, Visual Studio Code, Notepad++, Vim, etc.   
+a. Open the project folder with any IDE/Text Editor that you desired, i.e Sublime, Atom, VS Code, Notepad++, etc.   
 
 b. Explore and modify any Java files with its resources (the .txt files that contain names). You can also modify the unit test.  
 
