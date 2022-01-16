@@ -84,15 +84,15 @@ The output file content will be always overwritten based on your result.
 ## Usage Example - Running the App
 a. Download or clone this repository to your local computer
 
-b. Navigate to the location of this project that you just downloaded through command prompt(CMD) or Terminal. Go to the path where pom.xml is located (inside haidar folder = root).
+b. Navigate to the location of this project that you just downloaded through command prompt(CMD) or Terminal.   Go to the path where pom.xml is located (inside haidar folder = root).
 
 c. Then type or copy these commands on your command prompt or terminal  
-(Both of these commands runnable on Windows/Linux/Mac)  
+    (Both of these commands runnable on Windows/Linux/Mac)  
 
 _Remember to install Maven (and Java) first._  
 
 ```
-<!-- Run this code just ONCE, for installing the project's dependencies. -->
+<!-- Run this code just ONCE, for installing the project's dependencies. --><br />
 mvn compile && mvn clean install  
 ```
 <br />Then run the app,  
