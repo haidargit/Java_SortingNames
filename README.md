@@ -35,7 +35,7 @@ This 'Names Sorter App' is built to sort the List of Person Names from the desir
 ✅  Straightforward and easy to use. Since we don't do repetitive activities  
     such as start, stop, or even restart the localhost/local server for this project.      
 
-✅  We check the application result on the Command Prompt / terminal by using java command  
+✅  We check the application result on the Command Prompt / terminal by using mvn command  
     (you'll see it on below)
 ```
 
