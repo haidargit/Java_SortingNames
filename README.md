@@ -92,7 +92,7 @@ c. Then type or copy these commands on your command prompt or terminal
 _Remember to install Maven (and Java) first._  
 
 ```
-<!-- Run this code just ONCE, for installing the project's dependencies. --><br />
+<!-- Run this code just ONCE, for installing the project's dependencies. --> <br />
 mvn compile && mvn clean install  
 ```
 <br />Then run the app,  
