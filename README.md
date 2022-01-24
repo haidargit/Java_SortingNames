@@ -135,17 +135,5 @@ d. You can then see the modified result.
 
 _🦠If there's any issue regarding installation and debugging, kindly to inform me.._    
 
-## CI / Pipeline Using Jenkins (Additional)  
-Example of using Free CI-CD tools Jenkins as build and test pipelines on AWS Virtual Server (EC2).  
-
-Steps:  
-
-![Screen Shot 2022-01-12 at 12 16 04](https://user-images.githubusercontent.com/33404432/149071762-afc6c018-e1ea-4a5b-94e7-21e3432ee562.jpg)
-<br />
-![Screen Shot 2022-01-12 at 12 29 13](https://user-images.githubusercontent.com/33404432/149071773-6efad5af-ab79-4c9a-a873-b315a72be996.png)
-<br />
-![Screen Shot 2022-01-12 at 12 54 15](https://user-images.githubusercontent.com/33404432/149071924-f313b547-9ea3-491d-beb7-eabf92d6aa6d.png)
-
-
 <br /><br />  
 #### By Haidar Ali
