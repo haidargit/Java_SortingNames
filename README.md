@@ -2,7 +2,7 @@
     <img src="https://www.kst.co.id/images/kst-logo-100x100.png" alt="KST task logo" title="KST" align="right" height="60" />
 </a>
 
-# KST - Names Sorter App Documentation
+# Names Sorter App Documentation
 ![gitab](https://user-images.githubusercontent.com/33404432/149063206-592252f7-20ce-4e29-beab-8159fdc363e3.jpg)
 
 ## Table of content
